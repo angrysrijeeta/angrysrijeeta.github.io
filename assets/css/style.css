@@ -336,6 +336,7 @@ a:hover {
 .title-box-d .title-d {
   font-weight: 600;
   font-size: 2rem;
+  padding-bottom: 1.8rem;
 }
 
 .title-box-d .title-d:after {
@@ -346,6 +347,7 @@ a:hover {
   background-color: #494ca2;
   bottom: 20px;
   left: 0;
+  padding-bottom: 1.8rem;
 }
 
 /*------/ Display Table & Table Cell /------*/
@@ -1803,11 +1805,14 @@ a:hover {
 
 /*------/ Agent Single /------*/
 .agent-info-box .socials-footer {
+  padding-top: 2rem;
   margin-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .agent-info-box .socials-footer li {
   margin-right: 1.5rem;
+  padding-bottom: 1.8rem;
 }
 
 /*--------------------------------------------------------------
