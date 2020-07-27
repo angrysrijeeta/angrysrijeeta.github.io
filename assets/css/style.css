@@ -1120,6 +1120,10 @@ a:hover {
   }
 }
 
+.title-single{
+  font-family: 'Helvetica', sans-serif;
+}
+
 .intro-single .title-single-box {
   padding: 1rem 0 1rem 2rem;
 }
@@ -1539,6 +1543,7 @@ a:hover {
 }
 
 .post-content {
+  font-family: 'Helvetica', sans-serif;
   font-size: 1.1rem;
   font-weight: 300;
   line-height: 1.6;
@@ -2167,4 +2172,41 @@ footer .copyright-footer {
 
 footer .credits {
   font-size: 14px;
+}
+
+.controls {
+ text-align: right;
+ margin-bottom: 1em;
+}
+
+.controls li {
+  display: inline;
+}
+
+button {
+  background: #000;
+  color: #fff;
+  border: 0;
+  font-size: 0.85rem;
+  border-radius: 0.25rem;
+}
+
+/*
+Custom elements are inline by default
+*/
+toggle-section {
+  display: block;
+}
+
+/*
+Only applies if script runs and
+`role="region"` is added
+*/
+toggle-section[role="region"] {
+  border-width: 2px 0;
+  border-style: solid;
+}
+
+toggle-section[role="region"] + toggle-section {
+  border-top: 0;
 }
