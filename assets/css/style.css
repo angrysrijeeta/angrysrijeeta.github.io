@@ -1122,6 +1122,7 @@ a:hover {
 
 .title-single{
   font-family: 'Helvetica', sans-serif;
+  color: #494ca2;
 }
 
 .intro-single .title-single-box {
@@ -1992,7 +1993,7 @@ a:hover {
 CSS for team section
 ----------------------------------------------------------------*/
 .card-container {
-	background-color: #231E39;
+	background-color: #494ca2;
 	border-radius: 5px;
 	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
 	color: #B3B8CD;
@@ -2002,7 +2003,13 @@ CSS for team section
 	max-width: 100%;
 	text-align: center;
 }
-
+.card-name{
+  color: #fff;
+}
+.card-experience
+{
+  color:#fff;
+}
 .card-container .pro {
 	color: #231E39;
 	background-color: #FEBB0B;
@@ -2022,18 +2029,19 @@ CSS for team section
 }
 
 button.primary {
-	background-color: #03BFCB;
-	border: 1px solid #03BFCB;
+	background-color: #9478e4;
+	border: 1px solid #9478e4;
 	border-radius: 3px;
-	color: #231E39;
+	color: #fff;
 	font-family: Montserrat, sans-serif;
-	font-weight: 500;
+  font-weight: 500;
+  font-size:1.0rem;
 	padding: 10px 25px;
 }
 
 button.primary.ghost {
 	background-color: transparent;
-	color: #02899C;
+	color: #fff;
 }
 
 .skills {
